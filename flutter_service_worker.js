@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "app.js": "c6082c03115992dfec49f9b52569df6a",
+  "app.js": "fef108ccb5ec1099fd868284ee107b81",
 "assets/AssetManifest.json": "f51a4d86d9a29c26ef326813fca79492",
 "assets/assets/icons/Battery.png": "cc1c29b9962a550e56c65a133918f5eb",
 "assets/assets/icons/blooddrop.png": "51a304b532e6ff0c85422a7158274e45",
@@ -49,8 +49,8 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "38d97563dd94f2772e521fea8a9c5de3",
-"/": "38d97563dd94f2772e521fea8a9c5de3",
+"index.html": "d7c5fce21a4a25a0b4bc7f0a2f5523a4",
+"/": "d7c5fce21a4a25a0b4bc7f0a2f5523a4",
 "main.dart.js": "1976304390029754dee3d46acc6f9492",
 "manifest.json": "3f4043abd9017b9cefbdbc0951931912",
 "start.html": "2e4da51d9e5d1148091477da2aeaad7e",
