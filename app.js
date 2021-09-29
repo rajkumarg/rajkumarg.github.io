@@ -1,6 +1,6 @@
 function moveMe()
 {
-    window.moveTo(window.screen.width,0);
+    //window.moveTo(window.screen.width,0);
     window.focus();
 }
 
