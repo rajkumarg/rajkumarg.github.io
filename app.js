@@ -11,33 +11,41 @@ function moveMe(currentWidth)
 }
 
 function callListShowNative() {
-    window.resizeTo(590,800);
-    //window.innerHeight = 800;
-    //window.innerWidth = 590;                              // Resizes the new window
-    //window.focus();
-    
+    var windowWidth = 590;
+    var windowHeight = 800;
+    var xPos = (window.screen.width) - (windowWidth/2);
+    var yPos = 0;
+    window.resizeTo(windowWidth,windowHeight);
+    window.moveTo(xPos,yPos);
 }
 
 function callListHideNative() {
-    window.resizeTo(100,800);
-    //window.innerHeight = 800;
-    //window.innerWidth = 90;                              // Resizes the new window
-    //window.focus();
+    
+    var windowWidth = 150;
+    var windowHeight = 800;
+    var xPos = (window.screen.width) - (windowWidth/2);
+    var yPos = 0;
+    window.resizeTo(windowWidth,windowHeight);
+    window.moveTo(xPos,yPos);
 }
 
 function callDetailShowNative() {
-    window.resizeTo(1290,800);
-    //window.innerHeight = 800;
-    //window.innerWidth = 1290;                              // Resizes the new window
-    //window.focus();
+   
+    var windowWidth = 1290;
+    var windowHeight = 800;
+    var xPos = (window.screen.width) - (windowWidth/2);
+    var yPos = 0;
+    window.resizeTo(windowWidth,windowHeight);
+    window.moveTo(xPos,yPos);
 }
 
 function callDetailHideNative() {
-    window.resizeTo(590,800);
-    // window.innerHeight = 800;
-    // window.innerWidth = 590;                              // Resizes the new window
-    // window.focus();
-    
+    var windowWidth = 590;
+    var windowHeight = 800;
+    var xPos = (window.screen.width) - (windowWidth/2);
+    var yPos = 0;
+    window.resizeTo(windowWidth,windowHeight);
+    window.moveTo(xPos,yPos);
 }
 
 window.logger = (flutter_value) => {
