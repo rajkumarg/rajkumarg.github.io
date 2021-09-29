@@ -5,27 +5,27 @@ function moveMe(currentWidth)
 }
 
 function callListShowNative() {
-    window.outerHeight = 800;
-    window.outerWidth = 590;                              // Resizes the new window
+    window.innerHeight = 800;
+    window.innerWidth = 590;                              // Resizes the new window
     window.focus();
     
 }
 
 function callListHideNative() {
-    window.outerHeight = 800;
-    window.outerWidth = 90;                              // Resizes the new window
+    window.innerHeight = 800;
+    window.innerWidth = 90;                              // Resizes the new window
     window.focus();
 }
 
 function callDetailShowNative() {
-    window.outerHeight = 800;
-    window.outerWidth = 1290;                              // Resizes the new window
+    window.innerHeight = 800;
+    window.innerWidth = 1290;                              // Resizes the new window
     window.focus();
 }
 
 function callDetailHideNative() {
-    window.outerHeight = 800;
-    window.outerWidth = 590;                              // Resizes the new window
+    window.innerHeight = 800;
+    window.innerWidth = 590;                              // Resizes the new window
     window.focus();
     
 }
