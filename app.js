@@ -1,5 +1,5 @@
 var callListShowIntervalID;
-var interval = 1;
+var interval = 10;
 var defaultWidth = 100;
 var currentWidth = 100;
 var windowHeight = 800;
@@ -20,11 +20,6 @@ function moveMe(currentWidth)
 function callListShowNative() {
 
     callListShowIntervalID = window.setInterval("expandList()", interval);
-
-    var windowWidth = 590;
-    var xPos = (window.screen.width) - (windowWidth/2);
-    var yPos = 0;
-    window.moveTo(xPos,yPos);
 }
 
 function expandList()
@@ -42,8 +37,12 @@ function expandList()
     }
     else
     {
-      clearInterval(callListShowIntervalID);
-      return;
+        var windowWidth = 590;
+        var xPos = (window.screen.width) - (windowWidth/2);
+        var yPos = 0;
+        window.moveTo(xPos,yPos);
+        clearInterval(callListShowIntervalID);
+        return;
     }
 }
 
