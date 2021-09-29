@@ -7,26 +7,26 @@ function moveMe(currentWidth)
 function callListShowNative() {
     window.outerHeight = 800;
     window.outerWidth = 590;                              // Resizes the new window
-    moveMe(window.outerWidth);
+    window.focus();
     
 }
 
 function callListHideNative() {
     window.outerHeight = 800;
     window.outerWidth = 90;                              // Resizes the new window
-    moveMe(window.outerWidth);
+    window.focus();
 }
 
 function callDetailShowNative() {
     window.outerHeight = 800;
     window.outerWidth = 1290;                              // Resizes the new window
-    moveMe(window.outerWidth);
+    window.focus();
 }
 
 function callDetailHideNative() {
     window.outerHeight = 800;
     window.outerWidth = 590;                              // Resizes the new window
-    moveMe(window.outerWidth);
+    window.focus();
     
 }
 
