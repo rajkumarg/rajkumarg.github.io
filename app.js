@@ -1,6 +1,6 @@
 function moveMe()
 {
-    window.moveTo(window.screen.width - window.outerWidth,window.screen.height - window.outerHeight);
+    window.moveTo(window.screen.width - 100,0);
     window.focus();
 }
 
@@ -14,6 +14,18 @@ function callListShowNative() {
 function callListHideNative() {
     window.outerHeight = 800;
     window.outerWidth = 90;                              // Resizes the new window
+    window.focus();
+}
+
+function callDetailShowNative() {
+    window.outerHeight = 800;
+    window.outerWidth = 1290;                              // Resizes the new window
+    window.focus();
+}
+
+function callDetailHideNative() {
+    window.outerHeight = 800;
+    window.outerWidth = 590;                              // Resizes the new window
     window.focus(); 
     
 }
