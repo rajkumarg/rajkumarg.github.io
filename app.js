@@ -11,12 +11,19 @@ function moveMe(currentWidth)
 }
 
 function callListShowNative() {
+
+    /*
     var windowWidth = 590;
     var windowHeight = 800;
     var xPos = (window.screen.width) - (windowWidth/2);
     var yPos = 0;
     window.resizeTo(windowWidth,windowHeight);
     window.moveTo(xPos,yPos);
+    */
+
+   var data = "From Flutter Web";
+   window.webkit.messageHandlers.nativeProcess.postMessage(data);
+   
 }
 
 function callListHideNative() {
