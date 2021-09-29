@@ -27,12 +27,12 @@
   <link rel="manifest" href="manifest.json">
   <script src="app.js" defer></script>
 </head>
-<body>
+<body onload="initWindow();">
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '3355663013';
+    var serviceWorkerVersion = '971922465';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
