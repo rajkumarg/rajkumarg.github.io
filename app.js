@@ -21,7 +21,7 @@ function callListShowNative() {
 
 function callListHideNative() {
     
-    var windowWidth = 150;
+    var windowWidth = 130;
     var windowHeight = 800;
     var xPos = (window.screen.width) - (windowWidth/2);
     var yPos = 0;
