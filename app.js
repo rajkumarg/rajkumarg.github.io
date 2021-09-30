@@ -20,39 +20,53 @@ function callListShowNative() {
     window.resizeTo(windowWidth,windowHeight);
     window.moveTo(xPos,yPos);
     */
-
-   var data = "From Flutter Web";
+   var data = "callListShowNative";
    window.webkit.messageHandlers.nativeProcess.postMessage(data);
    
 }
 
 function callListHideNative() {
     
+    /*
     var windowWidth = 150;
     var windowHeight = 800;
     var xPos = (window.screen.width) - (windowWidth/2);
     var yPos = 0;
     window.resizeTo(windowWidth,windowHeight);
     window.moveTo(xPos,yPos);
+    */
+   var data = "callListHideNative";
+   window.webkit.messageHandlers.nativeProcess.postMessage(data);
 }
 
 function callDetailShowNative() {
    
+    /*
     var windowWidth = 1290;
     var windowHeight = 800;
     var xPos = (window.screen.width) - (windowWidth/2);
     var yPos = 0;
     window.resizeTo(windowWidth,windowHeight);
     window.moveTo(xPos,yPos);
+    */
+
+    var data = "callDetailShowNative";
+    window.webkit.messageHandlers.nativeProcess.postMessage(data);
 }
 
 function callDetailHideNative() {
+
+    /*
     var windowWidth = 590;
     var windowHeight = 800;
     var xPos = (window.screen.width) - (windowWidth/2);
     var yPos = 0;
     window.resizeTo(windowWidth,windowHeight);
     window.moveTo(xPos,yPos);
+    */
+
+   var data = "callDetailHideNative";
+   window.webkit.messageHandlers.nativeProcess.postMessage(data);
 }
 
 window.logger = (flutter_value) => {
