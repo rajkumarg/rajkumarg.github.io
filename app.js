@@ -20,8 +20,8 @@ function callListShowNative(val) {
     window.resizeTo(windowWidth,windowHeight);
     window.moveTo(xPos,yPos);
     */
-   var data = val;
-   window.webkit.messageHandlers.nativeProcess.postMessage(data);
+   //alert(val);
+   window.webkit.messageHandlers.nativeProcess.postMessage(val);
 }
 
 function callListHideNative() {
