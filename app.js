@@ -10,7 +10,7 @@ function moveMe(currentWidth)
     window.focus();
 }
 
-function callListShowNative() {
+function callListShowNative(val) {
 
     /*
     var windowWidth = 590;
@@ -20,9 +20,8 @@ function callListShowNative() {
     window.resizeTo(windowWidth,windowHeight);
     window.moveTo(xPos,yPos);
     */
-   var data = "callListShowNative";
+   var data = val;
    window.webkit.messageHandlers.nativeProcess.postMessage(data);
-   
 }
 
 function callListHideNative() {
